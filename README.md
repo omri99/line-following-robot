@@ -52,7 +52,12 @@ MIT License
 - `README.md` – Project overview and instructions  
 - `LICENSE` – MIT License  
 
-### Project Image
+### Wiring Diagram (Technical Schematic)
+![Technical Wiring Diagram](images/image3.png)
 
-![Line Following Robot](images/image2.jpeg)
+### Wiring Diagram (Visual)
+![Visual Wiring Diagram](images/image4.png)
+
+### Robot Photo
+![Line Follow Robot](images/image1.jpeg)
 
