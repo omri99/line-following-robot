@@ -1,3 +1,5 @@
+![Line Following Robot](images/image2.jpeg)
+
 # Line Following Robot – Arduino Project
 
 This project is an Arduino-based line-following robot using 5 IR sensors, a PID controller, and dual DC motors. It demonstrates hands-on experience with embedded systems, sensor processing, and real-time control logic.
