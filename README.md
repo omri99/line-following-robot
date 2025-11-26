@@ -25,9 +25,12 @@ The robot performs real-time line tracking using an array of IR reflectance sens
 ## Technical Summary
 Sensor readings are processed using the QTRSensors library, mapping the line position to a 0–4000 range. A PID controller computes steering corrections based on the real-time error. Motor speeds are controlled via PWM and direction pins for smooth and predictable motion.
 
-## PID Control Algorithm
+## Control Algorithm
+### PID Overview
 The robot uses a PID controller to adjust its steering based on the line’s position. The **P (Proportional)** term reacts to how far the robot is from the center, the **I (Integral)** term corrects small errors that repeat over time, and the **D (Derivative)** term reduces quick side-to-side movements. By combining these three parts, the controller creates a correction value that adjusts the motor speeds, allowing the robot to follow the line smoothly and remain stable even in sharp turns.
 
+## Development Process
+The robot was developed using an iterative approach: initial prototyping of the sensor array, followed by testing line-position accuracy under different lighting and surface conditions. After achieving consistent readings, the focus shifted to tuning the PID controller to reduce oscillations and improve cornering stability. Each stage included small adjustments to wiring, sampling timing, and motor control until the system reacted smoothly and reliably. This process ensured that the final behavior was not just functional, but stable and predictable in real operating conditions.
 
 
 ## Design Decisions
