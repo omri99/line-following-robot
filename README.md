@@ -45,5 +45,13 @@ Developed as part of my exploration into robotics and embedded systems, focusing
 ## License
 MIT License
 
+### Repository Structure
+- `arduino-line-follower.ino` – Main Arduino firmware  
+- `docs/` – Architecture and design documentation  
+- `images/` – Project photos and diagrams  
+- `README.md` – Project overview and instructions  
+- `LICENSE` – MIT License  
+
+
 ![Line Following Robot](images/image2.jpeg)
 
