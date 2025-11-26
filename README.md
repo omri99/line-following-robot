@@ -52,6 +52,7 @@ MIT License
 - `README.md` – Project overview and instructions  
 - `LICENSE` – MIT License  
 
+### Project Image
 
 ![Line Following Robot](images/image2.jpeg)
 
