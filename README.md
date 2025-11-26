@@ -50,13 +50,16 @@ MIT License
 - `docs/` – Architecture and design documentation  
 - `images/` – Project photos and diagrams  
 - `README.md` – Project overview and instructions  
-- `LICENSE` – MIT License  
+- `LICENSE` – MIT License
+- 
 
 ### Wiring Diagram (Technical Schematic)
 ![Technical Wiring Diagram](images/image3.png)
 
+
 ### Wiring Diagram (Visual)
 ![Visual Wiring Diagram](images/image4.png)
+
 
 ### Robot Photo
 ![Line Follow Robot](images/image1.jpeg)
