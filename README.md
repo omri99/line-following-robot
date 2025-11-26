@@ -6,7 +6,7 @@ This project is an Arduino-based line-following robot using 5 IR sensors, a PID 
 The robot performs real-time line tracking using an array of IR reflectance sensors to estimate the line’s position relative to the chassis. The control algorithm computes the lateral error—how far the robot deviates from the intended path—and a PID loop converts this error into differential motor outputs. This enables continuous trajectory correction, smooth return to the line, and stable motion even through sharp turns or brief loss of contact.
 
 ## Key Features
-- 5 analog IR sensors
+- 5 IR sensors
 - PID-based steering
 - Real-time line position calculation
 - Automatic calibration at startup
