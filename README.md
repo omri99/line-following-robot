@@ -11,6 +11,7 @@ The robot performs real-time line tracking using an array of IR reflectance sens
 - Real-time line position calculation
 - Automatic calibration at startup
 - Stable performance on curves and during line loss
+
   
 ## Hardware Used
 - Arduino Uno / Nano
@@ -19,9 +20,17 @@ The robot performs real-time line tracking using an array of IR reflectance sens
 - 2 DC motors
 - Robot chassis
 - Battery pack
-- 
+
+  
 ## Technical Summary
 Sensor readings are processed using the QTRSensors library, mapping the line position to a 0–4000 range. A PID controller computes steering corrections based on the real-time error. Motor speeds are controlled via PWM and direction pins for smooth and predictable motion.
+
+
+## Design Decisions
+- Selected a PID control approach to achieve smoother and more stable steering than a basic binary control method.
+- Used a 5-sensor array to improve line position estimation and increase robustness when parts of the line are not fully visible.
+- Chose differential motor control to maintain consistent steering behavior across different speeds and track curvature.
+
 
 ## Skills Developed
 The development process strengthened my capabilities in embedded programming, and hardware–software integration:
